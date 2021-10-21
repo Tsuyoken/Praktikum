@@ -1,2 +1,2 @@
 # Praktikum
-Repository Untuk Praktikum Pemrograman Wwb
+Repository Untuk Praktikum Pemrograman Web
