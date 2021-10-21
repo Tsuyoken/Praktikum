@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tsuyoken">
+    <meta name="description" content="Form Pizza">
+    <title>Pizza On Demand | Form</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Poppins', Tahoma;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body style="padding: 20px; min-height: 100vh;">
+    <div
+        style="width: 800px; border: 1px solid black; box-shadow: 5px 7px 15px 5px #add8e6; margin: 10px auto; padding: 20px;">
+        <header>
+            <h2>Black Goose Bistro | Pizza-on-Demand</h2>
+
+            <p>
+                Our 12" wood-fired pizzas are available for delevery. Build your <br>
+                custom pizza we'll deliver it within an hour.
+            </p>
+        </header>
+
+
+        <section>
+            <form action="http://blackgoosebistro.com/pizza.php" method="post">
+                <div>
+                    <p style="margin-bottom: 5px;">Your Information</p>
+
+                    <div style="float: left;">
+                        Name:
+                    </div>
+                    <div style="float: left; margin-left: 105px;  margin-bottom: 5px;">
+                        <input type="text" name="name" required>
+                    </div>
+
+                    <div style="clear: left;"></div>
+
+                    <div style="float: left;">
+                        Address:
+                    </div>
+                    <div style="float: left; margin-left: 90px;  margin-bottom: 5px;">
+                        <input type="text" name="address" required>
+                    </div>
+
+                    <div style="clear: left;"></div>
+
+                    <div style="float: left;">
+                        Telephone Number:
+                    </div>
+                    <div style="float: left; margin-left: 13px;  margin-bottom: 5px;">
+                        <input type="number" name="telephone" required>
+                    </div>
+
+                    <div style="clear: left;"></div>
+
+                    <div style="float: left;">
+                        Email:
+                    </div>
+                    <div style="float: left; margin-left: 108px; margin-bottom: 5px;">
+                        <input type="email" name="email" required>
+                    </div>
+                    <div style="clear: left;"></div>
+
+
+                    Delivery Instructions: <br>
+                    <textarea name="instructions" cols="70" rows="5" maxlength="400" placeholder="Only 400 Character"
+                        required></textarea>
+                </div>
+
+                <div>
+                    <h2>Design Your Dream Pizza</h2>
+                    <p style="margin-top: -20px;">Pizza Specs</p>
+
+                    <p>Crust (Choose one):</p>
+                    <div style="margin-top: -18px; margin-left: 20px;">
+                        (<input type="radio" name="crust" value="classic" id="crust" required>)
+                        <label for="crust"> Classic white </label> <br>
+                        (<input type="radio" name="crust" value="multigrain" id="crust1">)
+                        <label for="crust1"> Multigrain </label> <br>
+                        (<input type="radio" name="crust" value="cheese" id="crust2">)
+                        <label for="crust2"> Cheese-stuffed crust </label> <br>
+                        (<input type="radio" name="crust" value="gluten " id="crust3">)
+                        <label for="crust3"> Gluten-free </label>
+                    </div>
+
+                    <p>Toppings (Choose as many as you want):</p>
+                    <div style="margin-top: -18px; margin-left: 20px;">
+                        [<input type="checkbox" name="topping" id="topping" value="red" checked required>]
+                        <label for="topping"> Red sauce </label> <br>
+                        [<input type="checkbox" name="topping1" id="topping1" value="white">]
+                        <label for="topping1">White sauce </label> <br>
+                        [<input type="checkbox" name="topping2" id="topping2" value="mozzarella">]
+                        <label for="topping2"> Mozzarella cheese </label> <br>
+                        [<input type="checkbox" name="topping3" id="topping3" value="pepperoni">]
+                        <label for="topping3"> Pepperoni </label> <br>
+                        [<input type="checkbox" name="topping4" id="topping4" value="mushroom">]
+                        <label for="topping4">Mushrooms </label> <br>
+                        [<input type="checkbox" name="topping5" id="topping5" value="peppers">]
+                        <label for="topping5"> Peppers </label> <br>
+                        [<input type="checkbox" name="topping6" id="topping6" value="acnhovies">]
+                        <label for="topping6"> Anchovies </label>
+                    </div>
+
+                    <p>Number <br> How many pizzas:
+                        <select name="pizza">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </p>
+                </div>
+                <input type="submit" value="Give me the best pizza!">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
