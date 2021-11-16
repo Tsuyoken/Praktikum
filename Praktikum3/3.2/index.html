@@ -1,0 +1,131 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan</title>
+</head>
+<style>
+    
+    .topnav {
+        background-color: #f9f9f9;
+        overflow: hidden;
+        height:60px ;
+    }
+    
+    .topnav a {
+        color: #1d2238;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .topnav a:hover {
+        background-color: #f9f9f9;
+        color: black;
+    }
+    .topnav b{
+        float : right;
+    }
+    input[type=text] {
+        width: 100%;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    select{
+        width: 100%;
+    }
+    .tombol{
+        background-color: green;
+    }
+    .tombol:hover{
+        background-color: white;
+    }
+
+</style>
+<div class="topnav">
+    <a href="#">Home |</a>
+    <a href="#">Generate Link |</a>
+    <a href="#">Transaction History |</a>
+    <a href="#">Policy |</a>
+    <a href="#"><b>Logout</a>
+</div>
+
+<body>
+    <div style="display: flex;">
+        <div>
+            <img style="margin-top: 30px; margin-left: 30px; margin-right: 30px;" src="https://asset.kompas.com/crops/ZbKnQ7Tzyoq82BtPzL9bR_B8k1U=/213x57:1483x904/750x500/data/photo/2021/10/19/616e7ad67ecb0.png" alt="maccbook" width="200px" height="200px">
+            <button style="margin-left: 30px; display: flex;">
+                Upload Picture
+            </button>
+        </div>
+
+        <table>
+            <tr>
+
+                <td>Title Here</td>
+                <td><input type="text" name="title" placeholder="Macbook Air €800"></td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td><textarea rows="6" cols="70" type="text" name="desc"></textarea></td>
+            </tr>
+            <tr>
+                <td>Account number</td>
+                <td><input type="text" name="number"></td>
+            </tr>
+            <tr>
+                <td>Bank</td>
+                <td><select>
+                <option>BNI</option>
+                <option>BCA</option>
+                <option>Mandiri</option>
+                </select>
+                </td>
+                <tr>
+                    <td>Account Holder</td>
+                    <td><input type="text" name="holder"></td>
+                </tr>
+                <tr>
+                    <td>Transaction</td>
+                    <td><select name="3">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option></select>
+                    </td>
+                    <tr>
+                        <td></td>
+                        <td><small>* if the transaction is for 3 person, choose 3 from the dropdown list </small></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input style="color: green;" type="checkbox" name="mobile" value="mobile"><span style="color:green;">Send to Mobile phone</span></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input style="color: green;" type="checkbox" name="email" value="email"><span style="color:green;">Send to email</span></td>
+                    </tr>
+                    <tr>
+                        <td>Send to mobile phone</td>
+                        <td><input type="number" name="phone"></td>
+                    </tr>
+                    <tr>
+                        <td>Send to email</td>
+                        <td><input type="email" name="mail"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <p><input class="tombol"  type="submit" value="Generate Link"></p>
+                        </td>
+                    </tr>
+        </table>
+    </div>
+</body>
+
+
+</html>
+
+</html>
