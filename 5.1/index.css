@@ -1,0 +1,54 @@
+    .header1{
+        border: 1px solid; 
+        width: 65em; 
+        height: 50em; 
+        margin: auto;
+    }
+    .header2{
+        text-align: center; 
+        border: 1px solid;
+        padding-bottom: 2%;
+        background-color: #DCDCDC;
+    }
+    .inp{
+        width: 53em; 
+        border: 1px solid; 
+        height: 1.6em;
+    }
+
+    .box1{
+        border: 1px solid;
+        width: 12em;
+        height: 37em;
+        background: #F4EB49;
+        float: left;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .box2{
+        border: 1px solid;
+        width: 12em;
+        height: 37em;
+        background: #FF6624;
+        float: left;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .box3{
+        border: 1px solid;
+        width: 12em;
+        height: 37em;
+        background: #AEDD94;
+        float: left;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .box4{
+        border: 1px solid;
+        width: 12em;
+        height: 37em;
+        background: #4DD7FA;
+        float: left;
+        margin-left: 5%;
+        margin-top: 5%;
+    }

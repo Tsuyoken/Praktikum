@@ -1,0 +1,75 @@
+    .header1{
+        border: 1px solid; 
+        width: 65em; 
+        height: 55em; 
+        margin: auto;
+    }
+    .header2{
+        text-align: center; 
+        border: 1px solid;
+        padding-bottom: 2%;
+        background-color: #DCDCDC;
+    }
+    .inp{
+        width: 53em; 
+        border: 1px solid; 
+        height: 1.6em;
+    }
+  
+    .box1{
+        border: 1px solid;
+        width: 10em;
+        height: 5em;
+        background: #F4EB49;
+        margin-left: 3%;
+        margin-top: 3%;
+        float: left;
+    }
+    .box2{
+        border: 1px solid;
+        width: 50em;
+        height: 5em;
+        background: #FF6624;
+        margin-top: 3%;
+        margin-right: 3%;
+        float: right;
+    }
+    .box3{
+        border: 1px solid;
+        width: 10em;
+        height: 31em;
+        background: #AEDD94;
+        margin-left: 3%;
+        margin-top: 2%;
+        float: left;
+    }
+    .box4{
+        border: 1px solid;
+        width: 40em;
+        height: 31em;
+        background: #D1D6DB;
+        margin-top: 2%;
+        margin-left: 1%;
+        float: left;
+    }
+    .box5{
+        border: 1px solid;
+        width: 9em;
+        height: 31em;
+        background: #4DD7FA;
+        margin-top: 2%;
+        margin-left: 1%;
+        margin-right: 3%;
+        float: right;
+    }
+    .box6{
+        border: 1px solid;
+        width: 61em;
+        height: 6em;
+        background: blue;
+        margin-left: 3%;
+        margin-right: 5%;
+        margin-top: 2%;
+        float: right;
+        float: left;
+    }
