@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IMAGE PICKER</title>
+</head>
+<body>
+
+  <center>
+    <select onchange="gantigambar();" id="listgambar">
+      <option value="#">Pilih hewan</option>
+      <option value="jerapah">Jerapah</option>
+      <option value="zebra">Zebra</option>
+
+
+
+      
+    </select>
+  </center>
+    <br/>
+    <center>
+  <img style="margin-left: 20px;" src="#" style="width: 100%" id="gambar">
+</center>
+</body>
+<script type="text/javascript">
+  function gantigambar() {
+    let gambar = document.getElementById("listgambar");
+    let idx = gambar.selectedIndex;
+    alert("Hewan pilihan anda " + gambar[idx].value);
+    let area_gambar = document.getElementById("gambar");
+        area_gambar.src="gambar/"+gambar[idx].value+".jpg";
+
+  }
+</script>
+</html>
