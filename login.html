@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+</head>
+<body style="background-color: #1d2238;">
+<!---------------------------------------->
+<!----------------JavaScript-------------->	
+<!---------------------------------------->
+<script>
+
+	function Login(){
+	var done=0;
+	var username=document.login.username.value;
+	username=username.toLowerCase();
+	var password=document.login.password.value;
+	password=password.toLowerCase();
+	if (username=="admin" && password=="password") { window.alert("Selamat Datang Admin! "); }  // Username Passwordnya
+	else 
+	if (done==0) { window.alert("User atau Password Salah"); }} //Pesan salah Memasukkan Username atau Password
+
+</script>
+<!---------------------------------------->
+ <center>
+<form name=login>
+<table style="padding-top: 100px;" width=225 border=0 cellpadding=3>
+<tr>
+	<td colspan=2><center><font color="#f9f9f9" size="+2"><b>Login Form Using Javascript</b></font></center></td>
+</tr>
+<tr>
+	<td style="color: #f9f9f9;">Username:</td><td><input type=text name=username></td>
+</tr>
+<tr>
+	<td style="color: #f9f9f9;">Password:</td><td><input type=password name=password></td>
+</tr>
+<tr>
+	<td colspan=2 align=center><input type=button value="Login!" onClick="Login()"></td>
+</tr>
+</table>
+<!---------------------------------------->
+</body>
+</html>
